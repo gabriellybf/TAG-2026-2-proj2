@@ -1,0 +1,8 @@
+# cache do Python e pontos de controle do Jupyter
+*pycache*/
+*.pyc
+.ipynb*/
+
+# ambientes virtuais
+.venv/
+venv/
