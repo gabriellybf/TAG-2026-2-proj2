@@ -1,8 +1,10 @@
 # Projeto 2: alocação estável de alunos em projetos
 
-Teoria e Aplicação de Grafos, Turma 01, 2026/2, Prof. Díbio, Universidade de Brasília.
+Teoria e Aplicação de Grafos, Turma A, 2026/2, Prof. Díbio, Universidade de Brasília.
 
 Emparelhamento estável máximo de 200 alunos em 50 projetos (80 vagas) com variações do algoritmo de Gale-Shapley, dez iterações em laço com caminhos alternados e visualização colorida do grafo bipartido.
+
+![Evolução das dez iterações da proposta final](figuras/evolucao-projeto-propoe.gif)
 
 ## Estrutura
 
@@ -14,10 +16,9 @@ TAG-2026-2-proj2/
 ├── data/
 │   └── entradaProj2.26TAG.txt            # projetos, vagas, requisitos, alunos e preferências
 ├── notebook/
-│   └── projeto2-alocacao-estavel.ipynb   # código comentado, simulações e verificações
-├── figuras/                              # grafo de entrada, iterações, matriz e alocação final
-├── resultados/
-│   └── matriz-final.csv                  # alocação final com as duas classificações
+│   └── projeto2.ipynb                    # código comentado, simulações e verificações
+├── figuras/                              # grafo de entrada, iterações, GIFs, matriz e alocação final
+├── resultados/                           # tabelas em CSV, entre elas a matriz final
 └── verificacao/
     └── verifica.py                       # conferência independente do resultado
 ```
@@ -26,14 +27,22 @@ TAG-2026-2-proj2/
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebook/projeto2-alocacao-estavel.ipynb
+jupyter notebook notebook/projeto2.ipynb
 ```
 
-Abra o notebook a partir da pasta `notebook` e use Run All. A entrada é lida de `../data/entradaProj2.26TAG.txt`. No Google Colab, execute a primeira célula de código e escolha o arquivo de entrada quando o botão de envio aparecer. Os parâmetros ficam na primeira célula de código: número de iterações, regra de desempate, limite do caminho aumentante e se os gráficos devem ser desenhados.
+Abra o notebook a partir da pasta `notebook` e use Run All. A entrada é lida de `../data/entradaProj2.26TAG.txt`. No Google Colab, execute a primeira célula de código e escolha o arquivo de entrada quando o botão de envio aparecer. Os parâmetros ficam na primeira célula de código: número de iterações, regra de desempate, limite do caminho aumentante, se os gráficos devem ser desenhados (`MOSTRARGRAFICOS`) e se as figuras e tabelas devem ser salvas (`SALVARSAIDAS`).
+
+## O que o notebook gera
+
+Quando o notebook roda do início ao fim, ele salva sozinho as figuras na pasta `figuras` (o grafo de entrada, uma figura para cada uma das dez iterações das duas versões, um GIF de cada versão, a matriz final, a alocação final e alguns gráficos de apoio) e as tabelas na pasta `resultados`. A alocação final fica em `resultados/matriz-final.csv`. No Colab os arquivos ficam na sessão, e a última célula da etapa 9 baixa um zip com tudo. Nada no notebook usa número aleatório, então duas execuções dão o mesmo resultado.
+
+## Como conferir o resultado
+
+O script `verificacao/verifica.py` lê a entrada e o `matriz-final.csv` por conta própria e confere as vagas, as listas elegíveis, as duas classificações da matriz e os pares bloqueantes. Para rodar, use `python verificacao/verifica.py` na pasta do projeto (ele precisa do `scipy`).
 
 ## Resultado
 
-A proposta final, com a lista de preferência do projeto conduzindo as propostas, aloca 60 dos 134 alunos que têm alguma opção elegível, em 41 dos 50 projetos. Dos alunos alocados, 40 ficaram na primeira escolha, 9 na segunda e 11 na terceira. Não há par bloqueante no sentido fraco. O maior emparelhamento possível sem exigir estabilidade tem 63 alunos, e a programação linear inteira mostra que 60 é o máximo entre os emparelhamentos fracamente estáveis, que também não cobrem mais de 41 projetos. As versões em que o aluno propõe e em que o projeto propõe terminam a fase 1 na mesma alocação, porque com essas listas existe um único emparelhamento estável, e a fase 2 parte dela, então o resultado final também é igual. Os nove projetos sem aluno são P11, P13, P19, P32, P33, P42 e P46, sem nenhum candidato qualificado, mais P23 e P44, cujo único candidato qualificado ficou com outro projeto.
+A proposta final, com a lista de preferência do projeto conduzindo as propostas, aloca 60 dos 134 alunos que têm alguma opção elegível, em 41 dos 50 projetos. Dos alunos alocados, 40 ficaram na primeira escolha, 9 na segunda e 11 na terceira. Não há par bloqueante no sentido fraco. As versões em que o aluno propõe e em que o projeto propõe terminam a fase 1 na mesma alocação, porque com essas listas existe um único emparelhamento estável, e a fase 2 parte dela, então o resultado final também é igual.
 
 ## O que foi feito e qual variação foi usada
 
@@ -71,7 +80,7 @@ Em termos de caminhos alternados, uma proposta é uma aresta fora do emparelhame
 
 **Critério de parada.** O laço roda as 10 iterações pedidas. Ele fica estacionário quando uma iteração não tem propostas na fase 1 e nenhum caminho aumentante estável na fase 2. O programa avisa se isso não tiver acontecido até a décima iteração.
 
-**Projetos sem alunos.** Todo projeto realizado precisa de pelo menos um aluno. Um projeto que termina com zero alunos é marcado como não realizado e o programa explica o motivo (sem candidato qualificado, ou candidatos que preferiram outros projetos).
+**Projetos sem alunos.** Todo projeto realizado precisa de pelo menos um aluno. Um projeto que termina com zero alunos é marcado como não realizado.
 
 **Resposta final.** Como pede o enunciado, a proposta final é a do lado do projeto (a lista de preferência do projeto conduz as propostas), seguida da fase 2. A versão em que o aluno propõe também é simulada e mostrada, e as duas são comparadas.
 
