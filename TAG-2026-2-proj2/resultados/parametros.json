@@ -4,9 +4,9 @@
     "DESEMPATE": "escolha",
     "MAXPASSOSCAMINHO": 12
   },
-  "entrada_sha256": "d9148bfdcc07eaa33fce7adcda62b8ab5212bae33e15d94eaaab516423a39af4",
+  "entrada_sha256": "0ebc71d15bb37500ed0ef8dd373b75dfc4907cfdf6976f7075a679323f3af1ae",
   "versoes": {
-    "python": "3.12.3",
+    "python": "3.14.2",
     "numpy": "2.5.4",
     "pandas": "3.0.6",
     "matplotlib": "3.11.2"
