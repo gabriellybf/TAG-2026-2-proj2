@@ -1,0 +1,21 @@
+{
+  "parametros": {
+    "NITERACOES": 10,
+    "DESEMPATE": "escolha",
+    "MAXPASSOSCAMINHO": 12
+  },
+  "entrada_sha256": "d9148bfdcc07eaa33fce7adcda62b8ab5212bae33e15d94eaaab516423a39af4",
+  "versoes": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2"
+  },
+  "resultado": {
+    "alunos_alocados": 60,
+    "projetos_com_aluno": 41,
+    "primeira_escolha": 40,
+    "segunda_escolha": 9,
+    "terceira_escolha": 11
+  }
+}

@@ -31,14 +31,6 @@ jupyter notebook notebook/projeto2-alocacao-estavel.ipynb
 
 Abra o notebook a partir da pasta `notebook` e use Run All. A entrada é lida de `../data/entradaProj2.26TAG.txt`. No Google Colab, execute a primeira célula de código e escolha o arquivo de entrada quando o botão de envio aparecer. Os parâmetros ficam na primeira célula de código: número de iterações, regra de desempate, limite do caminho aumentante e se os gráficos devem ser desenhados.
 
-Para conferir a alocação final sem usar o notebook, rode a partir da pasta raiz:
-
-```bash
-python verificacao/verifica.py
-```
-
-O script relê a entrada com código próprio, valida `resultados/matriz-final.csv` (vagas, listas elegíveis, pares bloqueantes) e compara o tamanho obtido com o ótimo calculado por programação linear inteira.
-
 ## Resultado
 
 A proposta final, com a lista de preferência do projeto conduzindo as propostas, aloca 60 dos 134 alunos que têm alguma opção elegível, em 41 dos 50 projetos. Dos alunos alocados, 40 ficaram na primeira escolha, 9 na segunda e 11 na terceira. Não há par bloqueante no sentido fraco. O maior emparelhamento possível sem exigir estabilidade tem 63 alunos, e a programação linear inteira mostra que 60 é o máximo entre os emparelhamentos fracamente estáveis, que também não cobrem mais de 41 projetos. As versões em que o aluno propõe e em que o projeto propõe terminam a fase 1 na mesma alocação, porque com essas listas existe um único emparelhamento estável, e a fase 2 parte dela, então o resultado final também é igual. Os nove projetos sem aluno são P11, P13, P19, P32, P33, P42 e P46, sem nenhum candidato qualificado, mais P23 e P44, cujo único candidato qualificado ficou com outro projeto.

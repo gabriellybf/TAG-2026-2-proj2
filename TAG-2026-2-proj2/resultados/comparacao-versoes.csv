@@ -1,0 +1,5 @@
+﻿Momento,alunos,projetos com aluno,respeita vagas,só projetos da lista,pares bloqueantes estritos,pares bloqueantes fracos,1ª escolha,2ª escolha,3ª escolha,posição relativa média na lista do projeto
+"Aluno propõe, fim da fase 1",57,38,True,True,0,0,42,8,7,0.331
+"Aluno propõe, fim do laço",60,41,True,True,4,0,40,9,11,0.384
+"Projeto propõe, fim da fase 1",57,38,True,True,0,0,42,8,7,0.331
+"Projeto propõe, fim do laço",60,41,True,True,4,0,40,9,11,0.384
