@@ -1,0 +1,141 @@
+﻿Aluno,Nota,Categoria,Projetos elegíveis,Detalhe,Justificado
+A3,3,sem opção elegível: todas barradas pela nota,-,P30 exige 4; P34 exige 4; P35 exige 4,True
+A4,4,"com opção elegível, sem vaga","P3, P5","P3 cheio (notas [5, 5]); P5 cheio (notas [5, 5])",True
+A5,3,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A7,4,"com opção elegível, sem vaga",P41,"P41 cheio (notas [5, 5])",True
+A9,3,sem opção elegível: todas barradas pela nota,-,P7 exige 5; P29 exige 4; P9 exige 4,True
+A12,3,sem opção elegível: todas barradas pela nota,-,P2 exige 5; P20 exige 4; P4 exige 5,True
+A13,3,sem opção elegível: todas barradas pela nota,-,P3 exige 4; P30 exige 4; P45 exige 4,True
+A15,3,sem opção elegível: todas barradas pela nota,-,P5 exige 4; P48 exige 5; P24 exige 4,True
+A16,4,sem opção elegível: todas barradas pela nota,-,P6 exige 5; P19 exige 5,True
+A17,4,"com opção elegível, sem vaga","P21, P18","P21 cheio (notas [5]); P18 cheio (notas [5, 5])",True
+A19,3,sem opção elegível: todas barradas pela nota,-,P9 exige 4; P19 exige 5; P49 exige 4,True
+A20,3,sem opção elegível: todas barradas pela nota,-,P10 exige 4; P34 exige 4; P5 exige 4,True
+A21,3,"com opção elegível, sem vaga",P17,P17 cheio (notas [4]),True
+A22,4,"com opção elegível, sem vaga",P18,"P18 cheio (notas [5, 5])",True
+A25,4,"com opção elegível, sem vaga",P34,P34 cheio (notas [4]),True
+A26,4,"com opção elegível, sem vaga","P40, P9, P15","P40 cheio (notas [5]); P9 cheio (notas [4, 4]); P15 cheio (notas [4, 4])",True
+A27,4,"com opção elegível, sem vaga",P41,"P41 cheio (notas [5, 5])",True
+A28,3,sem opção elegível: todas barradas pela nota,-,P6 exige 5; P27 exige 5; P8 exige 5,True
+A29,3,sem opção elegível: todas barradas pela nota,-,P7 exige 5; P29 exige 4; P9 exige 4,True
+A30,3,sem opção elegível: todas barradas pela nota,-,P8 exige 5; P43 exige 4; P10 exige 4,True
+A36,3,sem opção elegível: todas barradas pela nota,-,P6 exige 5; P19 exige 5; P40 exige 4,True
+A37,3,sem opção elegível: todas barradas pela nota,-,P7 exige 5; P21 exige 4; P18 exige 4,True
+A38,3,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A39,3,sem opção elegível: todas barradas pela nota,-,P9 exige 4; P19 exige 5,True
+A40,3,sem opção elegível: todas barradas pela nota,-,P10 exige 4; P34 exige 4; P5 exige 4,True
+A44,4,"com opção elegível, sem vaga","P12, P3, P15","P12 cheio (notas [5, 4]); P3 cheio (notas [5, 5]); P15 cheio (notas [4, 4])",True
+A45,4,sem opção elegível: todas barradas pela nota,-,P11 exige 5; P38 exige 5; P4 exige 5,True
+A47,4,"com opção elegível, sem vaga","P41, P3","P41 cheio (notas [5, 5]); P3 cheio (notas [5, 5])",True
+A49,3,"com opção elegível, sem vaga",P37,P37 cheio (notas [5]),True
+A50,4,"com opção elegível, sem vaga","P43, P10","P43 cheio (notas [5, 4]); P10 cheio (notas [4, 4])",True
+A51,3,sem opção elegível: todas barradas pela nota,-,P1 exige 5; P14 exige 4,True
+A54,3,sem opção elegível: todas barradas pela nota,-,P4 exige 5; P40 exige 4; P15 exige 4,True
+A57,4,"com opção elegível, sem vaga","P37, P21, P18","P37 cheio (notas [5]); P21 cheio (notas [5]); P18 cheio (notas [5, 5])",True
+A59,3,sem opção elegível: todas barradas pela nota,-,P39 exige 5; P19 exige 5; P49 exige 4,True
+A65,3,sem opção elegível: todas barradas pela nota,-,P30 exige 4; P4 exige 5; P34 exige 4,True
+A66,4,"com opção elegível, sem vaga","P30, P9, P10","P30 cheio (notas [5]); P9 cheio (notas [4, 4]); P10 cheio (notas [4, 4])",True
+A67,4,sem opção elegível: todas barradas pela nota,-,P31 exige 5; P38 exige 5,True
+A70,3,sem opção elegível: todas barradas pela nota,-,P38 exige 5; P43 exige 4; P10 exige 4,True
+A71,4,"com opção elegível, sem vaga",P21,P21 cheio (notas [5]),True
+A72,4,"com opção elegível, sem vaga",P20,P20 cheio (notas [4]),True
+A73,4,"com opção elegível, sem vaga","P30, P45","P30 cheio (notas [5]); P45 cheio (notas [4, 4])",True
+A74,3,sem opção elegível: todas barradas pela nota,-,P34 exige 4; P40 exige 4; P15 exige 4,True
+A75,3,sem opção elegível: todas barradas pela nota,-,P35 exige 4; P48 exige 5; P24 exige 4,True
+A76,3,sem opção elegível: todas barradas pela nota,-,P36 exige 4; P19 exige 5; P40 exige 4,True
+A77,3,"com opção elegível, sem vaga",P37,P37 cheio (notas [5]),True
+A78,3,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A79,3,sem opção elegível: todas barradas pela nota,-,P39 exige 5; P19 exige 5; P49 exige 4,True
+A80,3,sem opção elegível: todas barradas pela nota,-,P40 exige 4; P34 exige 4; P5 exige 4,True
+A86,3,sem opção elegível: todas barradas pela nota,-,P27 exige 5; P19 exige 5; P10 exige 4,True
+A87,3,sem opção elegível: todas barradas pela nota,-,P7 exige 5; P21 exige 4; P8 exige 5,True
+A88,3,sem opção elegível: todas barradas pela nota,-,P8 exige 5; P47 exige 4; P48 exige 5,True
+A89,3,sem opção elegível: todas barradas pela nota,-,P19 exige 5; P9 exige 4,True
+A90,3,sem opção elegível: todas barradas pela nota,-,P10 exige 4; P34 exige 4; P25 exige 4,True
+A92,4,"com opção elegível, sem vaga","P36, P12","P36 cheio (notas [4, 4]); P12 cheio (notas [5, 4])",True
+A94,4,"com opção elegível, sem vaga","P3, P45","P3 cheio (notas [5, 5]); P45 cheio (notas [4, 4])",True
+A95,4,"com opção elegível, sem vaga",P24,P24 cheio (notas [4]),True
+A96,4,"com opção elegível, sem vaga","P43, P47","P43 cheio (notas [5, 4]); P47 cheio (notas [4])",True
+A97,4,"com opção elegível, sem vaga",P41,"P41 cheio (notas [5, 5])",True
+A98,4,"com opção elegível, sem vaga","P26, P47, P18","P26 cheio (notas [4, 4]); P47 cheio (notas [4]); P18 cheio (notas [5, 5])",True
+A99,4,"com opção elegível, sem vaga","P37, P9","P37 cheio (notas [5]); P9 cheio (notas [4, 4])",True
+A101,3,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A102,3,sem opção elegível: todas barradas pela nota,-,P10 exige 4; P40 exige 4; P50 exige 5,True
+A103,3,sem opção elegível: todas barradas pela nota,-,P3 exige 4; P23 exige 5; P33 exige 5,True
+A105,3,sem opção elegível: todas barradas pela nota,-,P4 exige 5; P8 exige 5; P34 exige 4,True
+A106,4,"com opção elegível, sem vaga","P40, P10","P40 cheio (notas [5]); P10 cheio (notas [4, 4])",True
+A108,4,sem opção elegível: todas barradas pela nota,-,P27 exige 5; P8 exige 5,True
+A109,3,sem opção elegível: todas barradas pela nota,-,P7 exige 5; P22 exige 4; P9 exige 4,True
+A110,4,"com opção elegível, sem vaga",P10,"P10 cheio (notas [4, 4])",True
+A111,4,"com opção elegível, sem vaga","P12, P34","P12 cheio (notas [5, 4]); P34 cheio (notas [4])",True
+A112,3,sem opção elegível: todas barradas pela nota,-,P42 exige 5; P20 exige 4; P4 exige 5,True
+A113,3,sem opção elegível: todas barradas pela nota,-,P43 exige 4; P30 exige 4; P45 exige 4,True
+A114,4,"com opção elegível, sem vaga","P24, P40, P15","P24 cheio (notas [4]); P40 cheio (notas [5]); P15 cheio (notas [4, 4])",True
+A115,3,sem opção elegível: todas barradas pela nota,-,P4 exige 5; P48 exige 5; P24 exige 4,True
+A116,4,"com opção elegível, sem vaga",P40,P40 cheio (notas [5]),True
+A118,3,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A119,3,sem opção elegível: todas barradas pela nota,-,P19 exige 5; P49 exige 4,True
+A120,3,sem opção elegível: todas barradas pela nota,-,P1 exige 5; P34 exige 4; P5 exige 4,True
+A121,3,"com opção elegível, sem vaga",P17,P17 cheio (notas [4]),True
+A122,3,sem opção elegível: todas barradas pela nota,-,P18 exige 4; P27 exige 5; P8 exige 5,True
+A123,3,sem opção elegível: todas barradas pela nota,-,P49 exige 4; P29 exige 4; P39 exige 5,True
+A124,3,sem opção elegível: todas barradas pela nota,-,P11 exige 5; P20 exige 4; P30 exige 4,True
+A125,3,sem opção elegível: todas barradas pela nota,-,P5 exige 4; P4 exige 5; P34 exige 4,True
+A126,3,sem opção elegível: todas barradas pela nota,-,P8 exige 5; P9 exige 4; P10 exige 4,True
+A128,4,"com opção elegível, sem vaga",P36,"P36 cheio (notas [4, 4])",True
+A130,4,"com opção elegível, sem vaga","P43, P20","P43 cheio (notas [5, 4]); P20 cheio (notas [4])",True
+A131,4,"com opção elegível, sem vaga","P12, P14","P12 cheio (notas [5, 4]); P14 cheio (notas [4, 4])",True
+A132,4,"com opção elegível, sem vaga","P20, P24",P20 cheio (notas [4]); P24 cheio (notas [4]),True
+A133,4,"com opção elegível, sem vaga","P30, P35",P30 cheio (notas [5]); P35 cheio (notas [4]),True
+A134,4,"com opção elegível, sem vaga","P40, P25",P40 cheio (notas [5]); P25 cheio (notas [4]),True
+A136,3,sem opção elegível: todas barradas pela nota,-,P46 exige 5; P19 exige 5; P42 exige 5,True
+A138,3,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A139,3,sem opção elegível: todas barradas pela nota,-,P9 exige 4; P19 exige 5; P49 exige 4,True
+A140,4,"com opção elegível, sem vaga","P30, P34, P5","P30 cheio (notas [5]); P34 cheio (notas [4]); P5 cheio (notas [5, 5])",True
+A141,4,"com opção elegível, sem vaga","P24, P20",P24 cheio (notas [4]); P20 cheio (notas [4]),True
+A142,4,"com opção elegível, sem vaga","P26, P12, P18","P26 cheio (notas [4, 4]); P12 cheio (notas [5, 4]); P18 cheio (notas [5, 5])",True
+A143,4,"com opção elegível, sem vaga","P26, P14, P5","P26 cheio (notas [4, 4]); P14 cheio (notas [4, 4]); P5 cheio (notas [5, 5])",True
+A146,4,sem opção elegível: todas barradas pela nota,-,P23 exige 5; P7 exige 5; P1 exige 5,True
+A147,4,"com opção elegível, sem vaga","P21, P3","P21 cheio (notas [5]); P3 cheio (notas [5, 5])",True
+A148,4,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A149,4,"com opção elegível, sem vaga","P37, P29, P9","P37 cheio (notas [5]); P29 cheio (notas [4, 4]); P9 cheio (notas [4, 4])",True
+A150,4,"com opção elegível, sem vaga","P43, P10","P43 cheio (notas [5, 4]); P10 cheio (notas [4, 4])",True
+A151,4,"com opção elegível, sem vaga",P14,"P14 cheio (notas [4, 4])",True
+A152,4,"com opção elegível, sem vaga",P20,P20 cheio (notas [4]),True
+A153,4,"com opção elegível, sem vaga","P43, P30, P45","P43 cheio (notas [5, 4]); P30 cheio (notas [5]); P45 cheio (notas [4, 4])",True
+A154,4,"com opção elegível, sem vaga","P40, P15","P40 cheio (notas [5]); P15 cheio (notas [4, 4])",True
+A156,4,"com opção elegível, sem vaga",P40,P40 cheio (notas [5]),True
+A158,4,"com opção elegível, sem vaga","P47, P28",P47 cheio (notas [4]); P28 cheio (notas [5]),True
+A160,4,"com opção elegível, sem vaga","P30, P34, P5","P30 cheio (notas [5]); P34 cheio (notas [4]); P5 cheio (notas [5, 5])",True
+A162,4,sem opção elegível: todas barradas pela nota,-,P38 exige 5; P27 exige 5; P8 exige 5,True
+A163,4,"com opção elegível, sem vaga",P29,"P29 cheio (notas [4, 4])",True
+A164,4,"com opção elegível, sem vaga","P30, P20",P30 cheio (notas [5]); P20 cheio (notas [4]),True
+A165,3,sem opção elegível: todas barradas pela nota,-,P30 exige 4; P4 exige 5; P34 exige 4,True
+A166,3,sem opção elegível: todas barradas pela nota,-,P30 exige 4; P9 exige 4; P10 exige 4,True
+A167,4,sem opção elegível: todas barradas pela nota,-,P31 exige 5; P38 exige 5,True
+A168,4,"com opção elegível, sem vaga",P36,"P36 cheio (notas [4, 4])",True
+A169,4,"com opção elegível, sem vaga","P37, P29, P9","P37 cheio (notas [5]); P29 cheio (notas [4, 4]); P9 cheio (notas [4, 4])",True
+A170,4,"com opção elegível, sem vaga","P43, P10","P43 cheio (notas [5, 4]); P10 cheio (notas [4, 4])",True
+A171,4,"com opção elegível, sem vaga",P21,P21 cheio (notas [5]),True
+A172,4,"com opção elegível, sem vaga",P20,P20 cheio (notas [4]),True
+A173,4,"com opção elegível, sem vaga","P30, P45","P30 cheio (notas [5]); P45 cheio (notas [4, 4])",True
+A175,4,"com opção elegível, sem vaga","P35, P24",P35 cheio (notas [4]); P24 cheio (notas [4]),True
+A176,3,sem opção elegível: todas barradas pela nota,-,P36 exige 4; P19 exige 5; P40 exige 4,True
+A178,3,"com opção elegível, sem vaga",P28,P28 cheio (notas [5]),True
+A179,3,sem opção elegível: todas barradas pela nota,-,P19 exige 5; P6 exige 5; P49 exige 4,True
+A180,3,sem opção elegível: todas barradas pela nota,-,P40 exige 4; P34 exige 4; P5 exige 4,True
+A181,4,"com opção elegível, sem vaga","P17, P37",P17 cheio (notas [4]); P37 cheio (notas [5]),True
+A182,4,sem opção elegível: todas barradas pela nota,-,P2 exige 5; P27 exige 5; P44 exige 5,True
+A183,4,"com opção elegível, sem vaga","P30, P5","P30 cheio (notas [5]); P5 cheio (notas [5, 5])",True
+A184,4,"com opção elegível, sem vaga","P40, P25",P40 cheio (notas [5]); P25 cheio (notas [4]),True
+A185,4,"com opção elegível, sem vaga","P5, P34","P5 cheio (notas [5, 5]); P34 cheio (notas [4])",True
+A186,3,sem opção elegível: todas barradas pela nota,-,P27 exige 5; P16 exige 4; P10 exige 4,True
+A189,3,sem opção elegível: todas barradas pela nota,-,P19 exige 5; P29 exige 4; P9 exige 4,True
+A190,3,sem opção elegível: todas barradas pela nota,-,P10 exige 4; P24 exige 4; P25 exige 4,True
+A191,4,"com opção elegível, sem vaga","P24, P22, P34",P24 cheio (notas [4]); P22 cheio (notas [5]); P34 cheio (notas [4]),True
+A192,3,sem opção elegível: todas barradas pela nota,-,P36 exige 4; P22 exige 4; P48 exige 5,True
+A193,3,sem opção elegível: todas barradas pela nota,-,P26 exige 4; P24 exige 4; P25 exige 4,True
+A194,3,sem opção elegível: todas barradas pela nota,-,P13 exige 5; P30 exige 4; P45 exige 4,True
+A195,3,sem opção elegível: todas barradas pela nota,-,P11 exige 5; P23 exige 5; P24 exige 4,True
+A198,3,sem opção elegível: todas barradas pela nota,-,P2 exige 5; P50 exige 5; P24 exige 4,True
+A199,4,"com opção elegível, sem vaga",P49,P49 cheio (notas [4]),True

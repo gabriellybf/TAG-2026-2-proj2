@@ -1,0 +1,14 @@
+﻿Medida,Valor
+Vagas totais,80
+Alunos com pelo menos uma opção elegível,134
+Máximo de alunos sem exigir estabilidade (caminhos aumentantes),63
+Máximo de alunos sem exigir estabilidade (fluxo máximo),63
+Máximo de projetos com aluno sem exigir estabilidade,43
+Máximo de alunos em alocação fracamente estável (programação inteira),60
+Prova de otimalidade concluída dentro do limite de tempo,sim
+Fim da fase 1 (projeto propõe): alunos emparelhados,57
+Alocação final do laço: alunos emparelhados,60
+Diferença entre o ótimo estável e a alocação final,0
+Custo da estabilidade (sem estabilidade menos com estabilidade),3
+Máximo de projetos com aluno entre as estáveis de tamanho ótimo,41
+Alocação final do laço: projetos com aluno,41
